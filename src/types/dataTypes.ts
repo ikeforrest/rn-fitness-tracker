@@ -49,9 +49,11 @@ export const HealthDataTypes = {
   WaistCircumference: 'WaistCircumference',
 
   // Activity
+  Steps: 'Steps',
   StepCount: 'StepCount',
   DistanceWalkingRunning: 'DistanceWalkingRunning',
   DistanceCycling: 'DistanceCycling',
+  DistanceSwimming: 'DistanceSwimming',
   PushCount: 'PushCount',
   DistanceWheelchair: 'DistanceWheelchair',
   SwimmingStrokeCount: 'SwimmingStrokeCount',
@@ -61,6 +63,7 @@ export const HealthDataTypes = {
   NikeFuelPoints: 'NikeFuel',
   ExerciseTime: 'AppleExerciseTime',
   StandTime: 'AppleStandTime',
+  ActiveEnergyBurned: 'ActiveEnergyBurned',
 
   // Lab and Test Results
   BloodAlcoholContent: 'BloodAlcoholContent',
@@ -86,8 +89,12 @@ export const HealthDataTypes = {
   RespiratoryRate: 'RespiratoryRate',
   VO2Max: 'VO2Max',
 
+  // Mindfulness
+  MindfulSession: 'MindfulSession',
+
   // Workout
   Workout: 'Workout',
+  WorkoutRoute: 'WorkoutRoute',
 };
 
 // SI units can be prefixed as follows:
