@@ -47,12 +47,14 @@
     "jsdoc-to-markdown": "^6.0.1",
     "lint-staged": "^10.3.0",
     "prettier": "^2.1.1",
-    "react-native": "^0.63.2",
+    "tsc": "^1.20150623.0"
+  },
+  "dependencies": {
+    "react-native-device-info": "^6.0.2",
     "react-native-permissions": "^2.2.0",
-    "tsc": "^1.20150623.0",
     "typescript": "^4.0.2"
   },
   "peerDependencies": {
-    "react-native-device-info": "^6.0.2"
+    "react-native": "^0.63.2"
   }
 }
