@@ -1,11 +1,11 @@
 {
-  "name": "@kilohealth/rn-fitness-tracker",
+  "name": "@ikeforrest/rn-fitness-tracker",
   "version": "1.1.1",
   "description": "Fitness & Health tracking package for React Native for Android & iOS",
-  "homepage": "https://github.com/doville/rn-fitness-tracker",
-  "repository": "https://github.com/doville/rn-fitness-tracker",
+  "homepage": "https://github.com/ikeforrest/rn-fitness-tracker",
+  "repository": "https://github.com/ikeforrest/rn-fitness-tracker",
   "summary": "",
-  "author": "Kilo.Health",
+  "author": "Isaah Forrest <isaah.forrest@gmail.com",
   "license": "MIT",
   "main": "src/index.ts",
   "scripts": {
@@ -47,14 +47,11 @@
     "jsdoc-to-markdown": "^6.0.1",
     "lint-staged": "^10.3.0",
     "prettier": "^2.1.1",
+    "react-native": "^0.63.2",
     "tsc": "^1.20150623.0",
     "typescript": "^4.0.2"
   },
-  "dependencies": {
-    "react-native-device-info": "^6.0.2",
-    "react-native-permissions": "^2.2.0"
-  },
   "peerDependencies": {
-    "react-native": "^0.63.2"
+    "react-native": "~0.63.2"
   }
 }
