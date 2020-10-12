@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, "9.0"
 
-  s.source = { :git => "https://github.com/Dovke/rn-fitness-tracker.git", :tag => s.version }
+  s.source = { :git => "https://github.com/ikeforrest/rn-fitness-tracker.git", :tag => s.version }
 
   s.preserve_paths = 'LICENSE'
   s.source_files  = "ios/*.{h,m}"
